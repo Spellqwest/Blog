@@ -31,7 +31,7 @@ export default function ToolCard({
 			}}
 		>
 			<Card className="hover:shadow-lg hover:border-primary/20 transition-all duration-300 hover:bg-primary/5 w-full h-full">
-				<CardContent className="flex flex-col items-center gap-4 transition-all duration-300">
+				<CardContent className="flex flex-col items-center gap-4">
 					<div className="relative w-20 h-20 rounded-lg overflow-clip">
 						<Image
 							src={icon as string}
