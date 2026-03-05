@@ -1,0 +1,8 @@
+module.exports = {
+	plugins: [
+		"prettier-plugin-tailwindcss",
+		"prettier-plugin-organize-imports",
+	],
+	tabWidth: 4,
+	useTabs: true,
+};
