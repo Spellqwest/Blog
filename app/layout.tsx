@@ -21,15 +21,15 @@ const navbar = (
 	/>
 );
 const footer = (
-	<Footer className="flex flex-row items-center justify-between">
+	<Footer className="flex flex-row items-center justify-between w-full">
 		<Link
 			href="https://nextra.site"
 			className="flex flex-row items-center gap-2"
 		>
 			Powered by <NextraLogo />
 		</Link>
-		<span className="text-sm text-gray-500">
-			{new Date().getFullYear()} © Spellqwest. All rights reserved.
+		<span className="text-sm text-gray-500 ml-auto">
+			&copy; {new Date().getFullYear()} Spellqwest. All rights reserved.
 		</span>
 	</Footer>
 );
