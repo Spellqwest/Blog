@@ -1,2 +1,0 @@
-- Karten für Team Member
-- Technologie Karten
