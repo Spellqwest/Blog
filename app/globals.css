@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@layer base {
+	ul ul,
+	ol ol,
+	ul ol,
+	ol ul {
+		margin-top: 0rem !important;
+		margin-bottom: 0rem !important;
+	}
+}

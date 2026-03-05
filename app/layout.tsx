@@ -13,7 +13,7 @@ export const metadata = {
 const navbar = (
   <Navbar
     logo={<b>Spellqwest</b>} // Hier noch Logo einfügen 
-    logoLink={"https://github.com/Spellqwest"}
+    logoLink={"/"}
     projectLink="https://github.com/Spellqwest"
     chatLink="https://discord.gg/4rH7SuBx"
   />
@@ -49,7 +49,7 @@ export default async function RootLayout({
         <Layout
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/bhavya-dang/my-project"
+          docsRepositoryBase="https://github.com/Spellqwest/Spellqwest"
           footer={footer}
           search={search}
           editLink={null}
