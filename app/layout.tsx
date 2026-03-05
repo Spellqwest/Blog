@@ -5,6 +5,7 @@ import "nextra-theme-docs/style.css";
 import "@/app/globals.css";
 import Link from "next/link";
 import NextraLogo from "./components/nextra-logo";
+import FigmaLink from "@/components/figma/figma-link";
 
 export const metadata = {
   title: "Spellqwest",
@@ -16,6 +17,7 @@ const navbar = (
     logoLink={"/"}
     projectLink="https://github.com/Spellqwest"
     chatLink="https://discord.gg/4rH7SuBx"
+	children={<FigmaLink />} // Hier noch Logo einfügen 
   />
 );
 const footer = (

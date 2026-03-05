@@ -1,19 +1,111 @@
+import ToolCard from "@/components/tool-card";
+
 # Tools and technologies
 
 This page serves as a reference for the tools and technologies we are using in the project.
 
 ## Development
 
-- **Godot**: Game engine
+Tools we use for developing the game.
 
-## Design
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+	<ToolCard
+		title="Godot"
+		category="Game Engine"
+		description="Godot is a free and open-source game engine for creating and developing games."
+		link="https://godotengine.org/"
+		icon="https://upload.wikimedia.org/wikipedia/commons/6/6a/Godot_icon.svg"
+	/>
+	<ToolCard
+		title="GitHub Copilot"
+		category="AI Assistant"
+		description="GitHub Copilot is an AI assistant that helps you write and debug code."
+		link="https://copilot.github.com/"
+		icon="https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/github-copilot.svg"
+		invertDarkMode={true}
+	/>
+	<ToolCard
+		title="Cursor"
+		category="AI IDE"
+		description="Cursor is an AI-powered IDE for coding with a focus on productivity and efficiency."
+		link="https://cursor.com/"
+		icon="https://svgl.app/library/cursor_light.svg"
+		invertDarkMode={true}
+		colSpan={2}
+	/>
+</div>
 
-- **Figma**: Design and prototyping tool, brainstorming board
-- **Pixilart.com**: Pixel art design website
-- **Strudel**: Music creation using code
+## Asset creation
+
+Tools we use to create assets for the game.
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+	<ToolCard
+		title="Figma"
+		category="Design and Brainstorming"
+		description="Figma is a design and prototyping tool. We use it to create assets and to brainstorm ideas."
+		link="https://www.figma.com/"
+		icon="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+	/>
+	<ToolCard
+		title="Pixilart.com"
+		category="Design"
+		description="Pixilart.com is a website for creating pixel art and is used to create the assets for the game."
+		link="https://pixilart.com/"
+		icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwVkTilv64yuMC0QrF8KM5t-e8GyR9ECi4AA&s"
+	/>
+	<ToolCard
+		title="Strudel"
+		category="Music Creation"
+		description="Strudel is a tool that allows you to create music by writing code."
+		link="https://strudel.cc/"
+		icon="https://strudel.cc/icons/strudel_icon.png"
+		colSpan={2}
+	/>
+</div>
 
 ## Blog
 
-- **Nextra**: Documentation site generator
-- **Next.js**: Web framework
-- **Tailwind CSS**: CSS framework
+Tools and technologies we use for running the blog.
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+	<ToolCard
+		title="Next.js"
+		category="Web Framework"
+		description="Next.js is a web framework for building full-stack React applications."
+		link="https://nextjs.org/"
+		icon="https://svgl.app/library/nextjs_icon_dark.svg"
+		invertDarkMode={true}
+	/>
+	<ToolCard
+		title="Nextra"
+		category="Documentation Site Generator"
+		description="Nextra is a static site generator for Next.js that is used for the blog."
+		link="https://nextra.site/"
+		icon="https://logosandtypes.com/wp-content/uploads/2024/10/nextra-js.svg"
+		invertDarkMode={true}
+	/>
+	<ToolCard
+		title="Tailwind CSS"
+		category="CSS Framework"
+		description="Tailwind CSS is a utility-first CSS framework for rapidly building custom designs."
+		link="https://tailwindcss.com/"
+		icon="https://svgl.app/library/tailwindcss.svg"
+	/>
+	<ToolCard
+		title="shadcn/ui"
+		category="UI Library"
+		description="shadcn/ui is a library of components for building UI."
+		link="https://ui.shadcn.com/"
+		icon="https://svgl.app/library/shadcn-ui.svg"
+		invertDarkMode={true}
+	/>
+	<ToolCard
+		title="react-icons"
+		category="Icon Library"
+		description="react-icons is a library of icons for React that contains icons from many different icon packs."
+		link="https://react-icons.github.io/react-icons/"
+		icon="https://react-icons.github.io/react-icons/favicon.ico"
+		colSpan={2}
+	/>
+</div>
