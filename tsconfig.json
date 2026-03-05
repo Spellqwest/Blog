@@ -28,8 +28,7 @@
 		"**/*.tsx",
 		".next/types/**/*.ts",
 		"next.config.mjs",
-		".next/dev/types/**/*.ts",
-		"app/blogs/_meta.js"
+		".next/dev/types/**/*.ts"
 	],
 	"exclude": ["node_modules"]
 }
