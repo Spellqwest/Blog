@@ -1,8 +1,8 @@
-import { Card, CardContent } from "./ui/card";
-import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { FaDiscord, FaGithub } from "react-icons/fa";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Card, CardContent } from "./ui/card";
 
 export default function PersonCard({
 	name,

@@ -10,11 +10,11 @@
 		margin-top: 0rem !important;
 		margin-bottom: 0rem !important;
 	}
-  * {
-    @apply border-border outline-ring/50;
+	* {
+		@apply border-border outline-ring/50;
 	}
-  body {
-    @apply bg-background text-foreground;
+	body {
+		@apply bg-background text-foreground;
 	}
 }
 
