@@ -16,7 +16,6 @@ const navbar = (
 		logo={<b>Spellqwest</b>} // Hier noch Logo einfügen
 		logoLink={"/"}
 		projectLink="https://github.com/Spellqwest"
-		chatLink="https://discord.gg/4rH7SuBx"
 		children={<FigmaLink />} // Hier noch Logo einfügen
 	/>
 );
