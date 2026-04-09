@@ -3,4 +3,5 @@ export default {
 	"20260313_blog-2": "Second time's the charm 👀",
 	"20260319_blog-3": "Third time's even better 🏆",
 	"20260326_blog-4": "On all fours 📊",
+	"20260409_blog-5": "Couldn't think of a pun 📊",
 };
